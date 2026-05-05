@@ -15,7 +15,7 @@ Cliente activo
 def validar_pedido(monto,cantidad,stock,cliente_activo):
     if monto <=0:
         return False
-    if cantidad <1 or cantidad>12: 
+    if cantidad <1 or cantidad>10: 
         return False
     if stock < cantidad: 
         return False
